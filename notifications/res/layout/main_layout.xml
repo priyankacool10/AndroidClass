@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <Button 
+        android:id="@+id/showNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onShow"
+        android:text="show notification"/>
+    
+    <Button 
+        android:id="@+id/startService"
+        android:onClick="onServiceStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start service"/>
+
+    <Button 
+        android:id="@+id/stopService"
+        android:onClick="onStopService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop Service"/>
+    
+    <Button android:id="@+id/printOutput"
+        android:text="get data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onShowOutput"/>
+    
+    <TextView
+        android:id="@+id/output"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    
+</LinearLayout>

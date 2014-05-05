@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">predict</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">www.abc.net hello www.ghj.net +91123456789</string>
+    <string name="btnStr">tap me!</string>
+    <string name="strSecond">This is the second activity</string>
+    <string name="strMyHint">Type in city name</string>
+
+</resources>

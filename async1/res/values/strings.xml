@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AsyncTask Example</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">See Output Here</string>
+    <string name="strBtnStart">Start AsyncTask</string>
+
+</resources>

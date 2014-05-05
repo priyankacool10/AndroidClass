@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rollno"/>
+    
+    <EditText android:id="@+id/rollNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/rollno"/>
+       
+    <TextView 
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name"/>
+    
+    <EditText android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"/>
+    
+    <Button 
+        android:id="@+id/btnCreate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onInsert"
+        android:text="@string/StrbtnWrite"/>
+    
+    
+    <Button 
+        android:id="@+id/btnRead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/StrbtnRead"
+        android:onClick="onRead"/>
+ 
+	<Button 
+	    android:id="@+id/btnUpdate"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/strUpdate"
+	    android:onClick="onUpdate"/>
+	
+	<Button 
+	    android:id="@+id/btnDelete"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/strDelete"
+	    android:onClick="onDelete"/>
+
+</LinearLayout>

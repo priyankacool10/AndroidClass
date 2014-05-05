@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">sqlitedemo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="StrbtnRead">Read</string>
+    <string name="StrbtnWrite">Write</string>
+    <string name="strUpdate">Update</string>
+    <string name="strDelete">Delete</string>
+    <string name="rollno">Roll No.</string>
+    <string name="name">Name</string>
+
+</resources>
